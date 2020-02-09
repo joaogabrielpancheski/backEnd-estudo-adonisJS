@@ -26,7 +26,7 @@ class ForgotPasswordController {
         message => {
           message
             .to(user.email)
-            .from('jgabrielpancheski@codego.dev', 'João | CodeGo.dev')
+            .from('jgabrielpancheski@gmail', 'João Gabriel')
             .subject('Recuperação de senha')
         }
       )
